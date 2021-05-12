@@ -1,5 +1,5 @@
 .todo-container {
-  width: 300px;
+  width: 500px;
   margin: 0 auto;
   margin-top: 10px;
 }
@@ -10,8 +10,17 @@ ul.todo-list {
 .badge.badge-dark {
   background: red;
   float: right;
+  cursor: pointer;
 }
 
 a:hover {
   color: none;
+}
+
+.input-group-text{
+  cursor: pointer;  
+}
+
+.todo-header {
+  text-align: center;
 }
